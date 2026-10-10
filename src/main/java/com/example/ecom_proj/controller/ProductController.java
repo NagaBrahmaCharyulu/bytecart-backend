@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 
 @RestController 
-@CrossOrigin
+@CrossOrigin(origins = "https://bytecart-frontend.vercel.app")
 @RequestMapping("/api")
 public class ProductController {
 
